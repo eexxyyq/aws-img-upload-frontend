@@ -1,12 +1,23 @@
 .App {
   text-align: center;
+  width: fit-content;
+  height: fit-content;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.Drop {
+  width: fit-content;
+}
 
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +46,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
